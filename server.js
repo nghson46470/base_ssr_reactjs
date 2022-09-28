@@ -30,6 +30,12 @@ app.get('/', (req, res) => {
       <head>
         <title>React SSR Example</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+        <meta property="og:url" content="https://fullstack.edu.vn/" data-react-helmet="true">
+        <meta property="og:type" content="article" data-react-helmet="true">
+        <meta property="og:title" content="F8 - học lập trình để đi làm! | Học lập trình online | Học lập trình Javascript" data-react-helmet="true">
+        <meta property="og:description" content="Học Lập Trình Để Đi Làm với các khóa học xây dựng UI web với HTML, CSS, lập trình Java, lập trình Javascript, React, ReactJS, lập trình mobile React-Native, lập trình Backend với PHP, Laravel, Node, ExpressJS, MySQL, MongoDB, RESTfulAPI, ..." data-react-helmet="true">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+        <meta property="og:image" content="https://picsum.photos/200/300" data-react-helmet="true"/>
       </head>
       <body>
         <div id="app">${content}</div>
